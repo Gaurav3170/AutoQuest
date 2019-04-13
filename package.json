@@ -1,6 +1,6 @@
 {
   "name": "autoquest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Automatic Question Paper Generator System",
   "main": "app.js",
   "scripts": {
