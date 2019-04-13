@@ -1,0 +1,29 @@
+{
+  "name": "autoquest",
+  "version": "1.0.0",
+  "description": "An Automatic Question Paper Generator System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "question",
+    "paper",
+    "automatic",
+    "generator",
+    "project",
+    "computer",
+    "science",
+    "system",
+    "final",
+    "year",
+    "github",
+    "repositories"
+  ],
+  "author": "Prateek Kushwaha,Gaurav Keswani,Amir Ahsan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
