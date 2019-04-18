@@ -1,0 +1,48 @@
+<% include ./partials/header1 %>
+
+<div class="container">
+    <div class="row">
+        <h1 style="text-align: center">Add Question</h1>
+        <div style="width: 30%; margin: 0 auto;">
+                <form action="/questions" method="POST">
+                        <div class="form-group">
+                            
+                            
+                            <select name="subject" class="form-control" >
+                              <option value="Alogrithm">Alogrithm</option>
+                              <option value="Data Structures">Data Structures</option>
+                              <option value="Operating System">Operating System</option>
+                              <option value="Computer Networks">Computer Networks</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" name="unit">
+                                  <option value="1">Unit I</option>
+                                  <option value="2">Unit II</option>
+                                  <option value="3">Unit III</option>
+                                  <option value="4">Unit IV</option>
+                                  <option value="5">Unit V</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" name="level">
+                                  <option value="easy">Easy</option>
+                                  <option value="medium">Medium</option>
+                                  <option value="Operating">Hard</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="question"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-lg btn-block">Submit</button>
+                        </div>
+                       
+                </form>
+            <a href="/dashboard">Go Back</a>
+        </div>
+            
+        
+    </div>
+</div>
